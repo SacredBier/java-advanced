@@ -19,7 +19,7 @@ public class RandomColor {
         //获取画笔
         Graphics graphics = bufferedImage.getGraphics();
         //获取字体
-        Font font = new Font("方正喵呜体",Font.BOLD,20);
+        Font font = new Font("方正华隶简体",Font.BOLD,20);
         graphics.setFont(font);
         graphics.setColor(Color.WHITE);
         //开始绘制
@@ -35,10 +35,12 @@ public class RandomColor {
         graphics.setColor(Color.BLACK);
         graphics.drawString(string,40,28);
         //生成干扰线
-        for(int i = 0; i < 20;i++) {
+        for(int i = 0; i < 15;i++) {
+            //随机颜色
             int redRandom = random.nextInt(256);
             int greenRandom = random.nextInt(256);
             int blueRandom = random.nextInt(256);
+            //随机坐标
             int x1 = random.nextInt(120);
             int y1 = random.nextInt(40);
             int x2 = random.nextInt(120);
