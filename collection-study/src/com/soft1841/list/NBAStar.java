@@ -1,4 +1,4 @@
-package com.java.util;
+package com.soft1841.list;
 
 public class NBAStar {
     private String name;
