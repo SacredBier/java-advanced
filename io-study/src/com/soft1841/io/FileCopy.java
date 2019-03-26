@@ -2,6 +2,10 @@ package com.soft1841.io;
 
 import java.io.*;
 
+/**
+ * @author SacredBier
+ * 2019/3/26
+ */
 public class FileCopy {
     public static void main(String[] args) throws IOException{
         //指定源文件
