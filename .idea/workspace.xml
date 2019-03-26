@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f848e6b-d806-410d-a800-67152c4b98b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/TXTCopy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/io-study/src/com/soft1841/io/FileCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/FileCopy.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/FileCopy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -33,6 +33,15 @@
                 <element signature="e#1581#1626#0" />
                 <element signature="e#1649#1693#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/TXTCopy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -73,6 +82,7 @@
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/FileDemo2.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/FileDemo3.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/FileCopy.java" />
+        <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/TXTCopy.java" />
       </list>
     </option>
   </component>
@@ -131,7 +141,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553561770990" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553562783038" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -153,7 +163,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FileCopy">
+  <component name="RunManager" selected="Application.TXTCopy">
     <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.io.FileCopy" />
       <module name="io-study" />
@@ -206,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.mapAndList.StudentTest" />
-      <module name="collection-study" />
+    <configuration name="TXTCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.io.TXTCopy" />
+      <module name="io-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.mapAndList.*" />
+          <option name="PATTERN" value="com.soft1841.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TXTCopy" />
         <item itemvalue="Application.FileCopy" />
         <item itemvalue="Application.FileDemo3" />
         <item itemvalue="Application.FileDemo2" />
         <item itemvalue="Application.ListTest" />
-        <item itemvalue="Application.StudentTest" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +273,7 @@
       <workItem from="1553500909074" duration="1797000" />
       <workItem from="1553502769847" duration="1881000" />
       <workItem from="1553552133543" duration="53000" />
-      <workItem from="1553558712242" duration="3351000" />
+      <workItem from="1553558712242" duration="4067000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354595086</created>
@@ -363,17 +373,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553561768084</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="IO test">
+      <created>1553562071297</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1553562071297</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48923000" />
+    <option name="totallyTimeSpent" value="49639000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.23880596" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23880596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -382,7 +399,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.31496882" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31496882" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -654,6 +671,13 @@
             <element signature="e#1581#1626#0" />
             <element signature="e#1649#1693#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/TXTCopy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
         </state>
       </provider>
     </entry>
