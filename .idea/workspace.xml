@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f848e6b-d806-410d-a800-67152c4b98b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/TXTCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/io-study/src/com/soft1841/io/WriterFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,11 +37,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/TXTCopy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+            <state relative-caret-position="339">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/WriterFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +95,7 @@
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/FileDemo3.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/FileCopy.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/TXTCopy.java" />
+        <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/WriterFile.java" />
       </list>
     </option>
   </component>
@@ -119,6 +132,17 @@
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collection-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="collection-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="soft1841" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="io-study" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -141,9 +165,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553562783038" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553563483913" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Punch" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -163,7 +187,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TXTCopy">
+  <component name="RunManager" selected="Application.WriterFile">
     <configuration name="FileCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.io.FileCopy" />
       <module name="io-study" />
@@ -203,19 +227,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.listSetAndMap.ListTest" />
-      <module name="collection-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.listSetAndMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TXTCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.io.TXTCopy" />
       <module name="io-study" />
@@ -229,13 +240,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WriterFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.io.WriterFile" />
+      <module name="io-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WriterFile" />
         <item itemvalue="Application.TXTCopy" />
         <item itemvalue="Application.FileCopy" />
         <item itemvalue="Application.FileDemo3" />
         <item itemvalue="Application.FileDemo2" />
-        <item itemvalue="Application.ListTest" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +297,7 @@
       <workItem from="1553500909074" duration="1797000" />
       <workItem from="1553502769847" duration="1881000" />
       <workItem from="1553552133543" duration="53000" />
-      <workItem from="1553558712242" duration="4067000" />
+      <workItem from="1553558712242" duration="4781000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354595086</created>
@@ -380,15 +404,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553562071297</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="IO test">
+      <created>1553562789652</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1553562789652</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49639000" />
+    <option name="totallyTimeSpent" value="50353000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23880596" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -676,8 +706,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/TXTCopy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="339">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/WriterFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
