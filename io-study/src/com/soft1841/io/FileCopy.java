@@ -1,17 +1,25 @@
 package com.soft1841.io;
 
 import java.io.*;
+import java.util.UUID;
 
 /**
  * @author SacredBier
  * 2019/3/26
  */
+
 public class FileCopy {
-    public static void main(String[] args) throws IOException{
+    public static void main(String[] args) throws IOException {
         //指定源文件
         File srcFile = new File("D:/bg.jpg");
+        //获取源文件名
+        String srcFileName = srcFile.getName();
+        //将源文件名以"."分割
+        int position = srcFileName.indexOf(".");
+        //获取扩展名
+        String suffixName = srcFileName.substring(position);
         //指定目标文件
-        File destFile = new File("D:/测试用/bg.jpg");
+        File destFile = new File("D:/测试用/" + UUID.randomUUID().toString() + suffixName);
         //创建一个字节输数组，大小为源文件
         byte[] bytes = new byte[(int) srcFile.length()];
         //创建字节输入流
