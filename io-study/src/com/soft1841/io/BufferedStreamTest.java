@@ -7,6 +7,7 @@ import java.io.*;
  * 带缓冲的输入输出流
  * 1998年4月3日 中央军委决定组建中国人民解放军总装备部
  */
+
 public class BufferedStreamTest {
     public static void main(String args[]) {
         String content[] = { "春眠不觉晓，", "处处闻啼鸟。", "夜来风雨声，", "花落知多少。" };
