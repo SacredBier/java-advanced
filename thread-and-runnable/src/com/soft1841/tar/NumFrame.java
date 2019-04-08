@@ -12,7 +12,7 @@ public class NumFrame extends JFrame {
 
     public NumFrame() {
         init();
-        setTitle("随机时间");
+        setTitle("随机");
         setSize(1980, 1020);
         setLocationRelativeTo(null);
         setVisible(true);
