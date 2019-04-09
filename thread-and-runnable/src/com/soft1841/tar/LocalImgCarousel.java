@@ -56,10 +56,10 @@ public class LocalImgCarousel extends JFrame implements ActionListener {
             chooseImg.setBgLabel(imgLabel);
             Thread thread = new Thread(chooseImg);
             thread.start();
-        } else if (e.getSource() == newThreadBtn) {
+        } else {
             PlayMusic playMusic = new PlayMusic();
-            Thread thread = new Thread(playMusic);
-            thread.start();
+            Thread musicThread = new Thread(playMusic);
+            musicThread.start();
         }
     }
 }
@@ -81,7 +81,7 @@ class ChooseImg implements Runnable {
         if (result == JFileChooser.APPROVE_OPTION) {
             File[] files = fileChooser.getSelectedFiles();
             int i = 0;
-            int len = files.length - 1;
+            int len = files.length;
             while (true) {
                 try {
                     File file = new File(String.valueOf(files[i]));
@@ -108,6 +108,7 @@ class ChooseImg implements Runnable {
 }
 
 class PlayMusic implements Runnable {
+
     @Override
     public void run() {
         URL url;
@@ -116,8 +117,15 @@ class PlayMusic implements Runnable {
             url = file.toURL();
             AudioClip audioClip = Applet.newAudioClip(url);
             audioClip.play();
+            try {
+                Thread.sleep(30000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            audioClip.stop();
         } catch (MalformedURLException e) {
             e.printStackTrace();
+
         }
     }
 }
