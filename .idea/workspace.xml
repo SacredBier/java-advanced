@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9f848e6b-d806-410d-a800-67152c4b98b7" name="Default Changelist" comment="" />
+    <list default="true" id="9f848e6b-d806-410d-a800-67152c4b98b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLineThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +20,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/LocalImgCarousel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3132">
-              <caret line="120" column="30" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+            <state relative-caret-position="3044">
+              <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1208">
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
             </state>
           </provider>
         </entry>
@@ -40,7 +53,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util/src/com/java/util/Hello.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/MathDemo.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java" />
@@ -90,6 +102,8 @@
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/Tetris.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/NumFrame.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/LocalImgCarousel.java" />
+        <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLineThread.java" />
+        <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java" />
       </list>
     </option>
   </component>
@@ -312,6 +326,7 @@
       <workItem from="1554815292681" duration="2610000" />
       <workItem from="1554820221829" duration="1921000" />
       <workItem from="1554823538019" duration="2168000" />
+      <workItem from="1554849563905" duration="237000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354595086</created>
@@ -544,17 +559,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554825323041</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="多线程起步">
+      <created>1554849770302</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1554849770302</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131829000" />
+    <option name="totallyTimeSpent" value="132071000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2217484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -563,7 +585,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.14137214" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14137214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -633,23 +655,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="多线程起步" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/MathDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/src/com/java/util/RandomColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="837">
-          <caret line="35" column="42" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1033,10 +1038,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1208">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLineThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/LocalImgCarousel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3132">
-          <caret line="120" column="30" selection-start-line="120" selection-start-column="30" selection-end-line="120" selection-end-column="30" />
+        <state relative-caret-position="3044">
+          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
