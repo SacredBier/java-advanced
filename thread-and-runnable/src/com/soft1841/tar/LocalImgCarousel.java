@@ -57,8 +57,8 @@ public class LocalImgCarousel extends JFrame implements ActionListener {
             Thread thread = new Thread(chooseImg);
             thread.start();
         } else if (e.getSource() == newThreadBtn) {
-            RandomPoint randomPoint = new RandomPoint();
-            Thread thread = new Thread(randomPoint);
+            PlayMusic playMusic = new PlayMusic();
+            Thread thread = new Thread(playMusic);
             thread.start();
         }
     }
@@ -107,7 +107,7 @@ class ChooseImg implements Runnable {
     }
 }
 
-class RandomPoint implements Runnable {
+class PlayMusic implements Runnable {
     @Override
     public void run() {
         URL url;
