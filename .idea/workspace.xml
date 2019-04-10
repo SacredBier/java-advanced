@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f848e6b-d806-410d-a800-67152c4b98b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawImageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLineThread.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/LocalImgCarousel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3044">
-              <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+            <state relative-caret-position="858">
+              <caret line="153" selection-start-line="1" selection-end-line="153" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -29,11 +28,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawImageTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1208">
-              <caret line="59" selection-start-line="59" selection-end-line="59" />
+            <state relative-caret-position="621">
+              <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#353#354#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util/src/com/java/util/IntegerDemo.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/MathDemo.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/RandomDemo.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/RandomColor.java" />
@@ -104,6 +107,7 @@
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/LocalImgCarousel.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLineThread.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java" />
+        <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawImageTest.java" />
       </list>
     </option>
   </component>
@@ -129,7 +133,21 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-and-runnable" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -137,7 +155,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554111578889" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-and-runnable/Img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -150,16 +168,17 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\src\com\soft1841\tar" />
+      <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\bgm" />
+      <recent name="D:\JavaStudy\java-advanced\swing-study\src\img" />
+      <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\src" />
       <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\src\com\soft1841\tar" />
       <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
       <recent name="D:\JavaStudy\java-advanced\swing-study\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\bgm" />
-      <recent name="D:\JavaStudy\java-advanced\swing-study\src\img" />
-      <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -174,9 +193,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DrawLingFrame">
+  <component name="RunManager" selected="Application.DrawImageTest">
     <configuration name="CarouselTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.tar.CarouselTest" />
+      <module name="thread-and-runnable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.tar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawImageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.tar.DrawImageTest" />
       <module name="thread-and-runnable" />
       <extension name="coverage">
         <pattern>
@@ -227,26 +259,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TicketThreadTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.tar.TicketThreadTest3" />
-      <module name="thread-and-runnable" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.tar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DrawImageTest" />
         <item itemvalue="Application.DrawLingFrame" />
         <item itemvalue="Application.LocalImgCarousel" />
         <item itemvalue="Application.ImgCarousel" />
         <item itemvalue="Application.CarouselTest" />
-        <item itemvalue="Application.TicketThreadTest3" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +345,9 @@
       <workItem from="1554815292681" duration="2610000" />
       <workItem from="1554820221829" duration="1921000" />
       <workItem from="1554823538019" duration="2168000" />
-      <workItem from="1554849563905" duration="237000" />
+      <workItem from="1554849563905" duration="332000" />
+      <workItem from="1554849941008" duration="277000" />
+      <workItem from="1554936319691" duration="485000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354595086</created>
@@ -566,11 +587,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554849770302</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="多线程起步">
+      <created>1554849826487</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1554849826487</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132071000" />
+    <option name="totallyTimeSpent" value="132923000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -585,7 +613,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.14137214" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.14137214" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991684" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -655,9 +683,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="多线程起步" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/mapAndList/StudentTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -1038,26 +1063,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLineThread.java" />
     <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLingFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1208">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawLineThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="27">
+          <caret line="8" selection-start-line="8" selection-end-line="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/LocalImgCarousel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3044">
-          <caret line="153" lean-forward="true" selection-start-line="153" selection-end-line="153" />
+        <state relative-caret-position="858">
+          <caret line="153" selection-start-line="1" selection-end-line="153" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawImageTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="23" column="81" selection-start-line="23" selection-start-column="81" selection-end-line="23" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#353#354#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
           </folding>
         </state>
       </provider>
