@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f848e6b-d806-410d-a800-67152c4b98b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/NumberFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TraficLights.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +16,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/NumberFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="-1139">
+              <caret column="10" selection-start-column="10" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1099#1100#0" expanded="true" />
-                <element signature="e#1132#1133#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
-                <element signature="e#212#213#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TraficLights.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="511">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#397#398#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#579#580#0" expanded="true" />
+                <element signature="e#619#620#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util/src/com/java/util/RandomColor.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/ListTest.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/NBAStar.java" />
         <option value="$PROJECT_DIR$/util/src/com/java/util/NBATop.java" />
@@ -100,6 +109,7 @@
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/DrawImageTest.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/NumberThread.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/NumberFrame.java" />
+        <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TraficLights.java" />
       </list>
     </option>
   </component>
@@ -126,6 +136,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,12 +155,17 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tar" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thread-and-runnable" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Img" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -198,7 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NumberFrame">
+  <component name="RunManager" selected="Application.TraficLights">
     <configuration name="DrawImageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.tar.DrawImageTest" />
       <module name="thread-and-runnable" />
@@ -214,19 +230,6 @@
     </configuration>
     <configuration name="DrawLingFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.soft1841.tar.DrawLingFrame" />
-      <module name="thread-and-runnable" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.soft1841.tar.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ImgCarousel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.tar.ImgCarousel" />
       <module name="thread-and-runnable" />
       <extension name="coverage">
         <pattern>
@@ -264,13 +267,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TraficLights" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.tar.TraficLights" />
+      <module name="thread-and-runnable" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.soft1841.tar.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TraficLights" />
         <item itemvalue="Application.NumberFrame" />
         <item itemvalue="Application.DrawImageTest" />
         <item itemvalue="Application.DrawLingFrame" />
         <item itemvalue="Application.LocalImgCarousel" />
-        <item itemvalue="Application.ImgCarousel" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +369,8 @@
       <workItem from="1554849563905" duration="332000" />
       <workItem from="1554849941008" duration="277000" />
       <workItem from="1554936319691" duration="845000" />
-      <workItem from="1555021601081" duration="288000" />
+      <workItem from="1555021601081" duration="406000" />
+      <workItem from="1555282555757" duration="1069000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354595086</created>
@@ -607,17 +624,24 @@
       <option name="project" value="LOCAL" />
       <updated>1554937023529</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="多线程起步">
+      <created>1555021920663</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1555021920663</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133571000" />
+    <option name="totallyTimeSpent" value="134758000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.2217484" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2217484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -696,37 +720,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="多线程起步" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/mapAndList/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="858">
-          <caret line="35" selection-start-line="2" selection-end-line="35" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#413#414#0" expanded="true" />
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#485#486#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/listSetAndMap/Student.java" />
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/listSetAndMap/Dormitory.java" />
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/set/TreeSetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="14" column="34" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/list/NBATop.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1099,16 +1092,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/NumberFrame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-1139">
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/Img/Green.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/Img/Yellow.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/Img/Red.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TraficLights.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="511">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#579#580#0" expanded="true" />
+            <element signature="e#619#620#0" expanded="true" />
           </folding>
         </state>
       </provider>
