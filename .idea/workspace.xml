@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f848e6b-d806-410d-a800-67152c4b98b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/RAandTRace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TimerAndJoinTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TimerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swing-study/src/com/soft1841/swing/ComponentPaintFrame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,20 +16,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TimerAndJoinTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2106">
-              <caret line="80" column="128" selection-start-line="80" selection-start-column="128" selection-end-line="80" selection-end-column="128" />
+            <state relative-caret-position="459">
+              <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1078#1539#0" expanded="true" />
-                <element signature="e#1538#1539#0" expanded="true" />
-                <element signature="e#1894#1895#0" expanded="true" />
-                <element signature="e#1928#1929#0" expanded="true" />
-                <element signature="e#1999#2572#0" expanded="true" />
-                <element signature="e#2571#2572#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/swing/ComponentPaintFrame.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="918">
+              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -51,7 +52,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/list/ListTestTwo.java" />
         <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/set/SetLest.java" />
         <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/set/TreeSetTest.java" />
         <option value="$PROJECT_DIR$/collection-study/src/com/soft1841/map/HashMapTest.java" />
@@ -102,6 +102,7 @@
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TimerDemo.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/RAandTRace.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TimerAndJoinTest.java" />
+        <option value="$PROJECT_DIR$/swing-study/src/com/soft1841/swing/ComponentPaintFrame.java" />
       </list>
     </option>
   </component>
@@ -128,7 +129,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,6 +147,26 @@
               <item name="io-study" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
+              <item name="jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swing-study" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="swing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
@@ -174,6 +194,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,7 +203,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554111578889" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread-and-runnable/Img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/swing-study/src/com/soft1841/swing" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -195,19 +216,19 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaStudy\java-advanced\swing-study\src\com\soft1841\swing" />
+      <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\Img" />
+      <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\src\com\soft1841\tar" />
+      <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\bgm" />
+      <recent name="D:\JavaStudy\java-advanced\swing-study\src\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\src\Img" />
       <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\src" />
       <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\src\com\soft1841\tar" />
       <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
       <recent name="D:\JavaStudy\java-advanced\swing-study\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\Img" />
-      <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\src\com\soft1841\tar" />
-      <recent name="D:\JavaStudy\java-advanced\thread-and-runnable\bgm" />
-      <recent name="D:\JavaStudy\java-advanced\swing-study\src\img" />
-      <recent name="D:\JavaStudy\java-advanced\swing-study\jar" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -222,13 +243,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TimerAndJoinTest">
-    <configuration name="DrawImageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.soft1841.tar.DrawImageTest" />
-      <module name="thread-and-runnable" />
+  <component name="RunManager" selected="Application.ComponentPaintFrame">
+    <configuration name="ComponentPaintFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.soft1841.swing.ComponentPaintFrame" />
+      <module name="swing-study" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.soft1841.tar.*" />
+          <option name="PATTERN" value="com.soft1841.swing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -290,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ComponentPaintFrame" />
         <item itemvalue="Application.TimerAndJoinTest" />
         <item itemvalue="Application.TimerDemo" />
         <item itemvalue="Application.TraficLights" />
         <item itemvalue="Application.NumberFrame" />
-        <item itemvalue="Application.DrawImageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +404,8 @@
       <workItem from="1555313434917" duration="5931000" />
       <workItem from="1555324529932" duration="2270000" />
       <workItem from="1555327828501" duration="26000" />
-      <workItem from="1555327875920" duration="2298000" />
+      <workItem from="1555327875920" duration="2500000" />
+      <workItem from="1555368014762" duration="254000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354595086</created>
@@ -651,11 +673,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555283723339</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="多线程起步">
+      <created>1555330246673</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1555330246673</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="145990000" />
+    <option name="totallyTimeSpent" value="146446000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -740,16 +769,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="多线程起步" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/list/ListTestTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/collection-study/src/com/soft1841/set/SetLest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
@@ -1135,17 +1154,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TimerAndJoinTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="80" column="128" selection-start-line="80" selection-start-column="128" selection-end-line="80" selection-end-column="128" />
+        <state relative-caret-position="459">
+          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1078#1539#0" expanded="true" />
-            <element signature="e#1538#1539#0" expanded="true" />
-            <element signature="e#1894#1895#0" expanded="true" />
-            <element signature="e#1928#1929#0" expanded="true" />
-            <element signature="e#1999#2572#0" expanded="true" />
-            <element signature="e#2571#2572#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/swing-study/src/com/soft1841/swing/ComponentPaintFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
         </state>
       </provider>
     </entry>
