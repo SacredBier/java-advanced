@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f848e6b-d806-410d-a800-67152c4b98b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/java-network/java-network.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Client1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Client2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Client4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Client5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/JSoupDemo2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/ClientGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/ServerGUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/UDPClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-network/src/com/soft1841/socket/UDPServer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,12 +18,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server3.java">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/UDPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="567">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,11 +31,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/Client5.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/UDPClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="540">
+              <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -65,9 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedStreamTest.java" />
-        <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/BufferedTest.java" />
-        <option value="$PROJECT_DIR$/swing-study/src/com/soft1841/swing/swingAndIOComposite.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/testOfThread.java" />
         <option value="$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/testOfRunnable.java" />
         <option value="$PROJECT_DIR$/io-study/src/com/soft1841/io/WriterFile.java" />
@@ -116,6 +106,9 @@
         <option value="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server4.java" />
         <option value="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Client5.java" />
         <option value="$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server5.java" />
+        <option value="$PROJECT_DIR$/java-network/src/com/soft1841/socket/ServerGUI.java" />
+        <option value="$PROJECT_DIR$/java-network/src/com/soft1841/socket/UDPServer.java" />
+        <option value="$PROJECT_DIR$/java-network/src/com/soft1841/socket/UDPClient.java" />
       </list>
     </option>
   </component>
@@ -159,34 +152,6 @@
               <item name="java-network" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="socket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="Server1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="Server3.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="Server4.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="java-advanced" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java-network" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="socket" type="462c0819:PsiDirectoryNode" />
-              <item name="Server5.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -439,6 +404,8 @@
       <workItem from="1557188301834" duration="3300000" />
       <workItem from="1557269390764" duration="398000" />
       <workItem from="1557355788301" duration="1487000" />
+      <workItem from="1557409708337" duration="1236000" />
+      <workItem from="1557441694805" duration="980000" />
     </task>
     <task id="LOCAL-00001" summary="Integer类练习">
       <created>1552354595086</created>
@@ -745,7 +712,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184992000" />
+    <option name="totallyTimeSpent" value="187208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -758,6 +725,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="1" />
@@ -765,7 +733,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.33848614" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.34594882" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32952183" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.45945945" />
@@ -840,46 +808,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="something.." />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/Team.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TimerDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io-study/src/com/soft1841/io/FileCopy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#715#782#0" />
-            <element signature="e#1445#1489#0" />
-            <element signature="e#1581#1626#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/TimerAndJoinTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="17" column="25" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thread-and-runnable/src/com/soft1841/tar/ImgCarousel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1161">
@@ -1224,9 +1152,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/600db213-fd72-4686-942c-0b1345bd7103.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/600db213-fd72-4686-942c-0b1345bd7103.jpg" />
     <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server5.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="972">
@@ -1239,7 +1165,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/Server3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="162">
           <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1251,6 +1177,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/ClientGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/ServerGUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/UDPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java-network/src/com/soft1841/socket/UDPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
