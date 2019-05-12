@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/collection-study/collection-study.iml" filepath="$PROJECT_DIR$/collection-study/collection-study.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gui-from/gui-from.iml" filepath="$PROJECT_DIR$/gui-from/gui-from.iml" />
       <module fileurl="file://$PROJECT_DIR$/io-study/io-study.iml" filepath="$PROJECT_DIR$/io-study/io-study.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-network/java-network.iml" filepath="$PROJECT_DIR$/java-network/java-network.iml" />
       <module fileurl="file://$PROJECT_DIR$/swing-study/swing-study.iml" filepath="$PROJECT_DIR$/swing-study/swing-study.iml" />
