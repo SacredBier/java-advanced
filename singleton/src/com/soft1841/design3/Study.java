@@ -1,4 +1,4 @@
-package com.soft1841;
+package com.soft1841.design3;
 
 public interface Study {
     void javastudy();

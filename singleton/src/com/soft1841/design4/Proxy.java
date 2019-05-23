@@ -1,4 +1,4 @@
-package com.soft1841;
+package com.soft1841.design4;
 
 public class Proxy implements Subject {
     @Override

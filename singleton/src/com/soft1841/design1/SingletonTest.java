@@ -1,4 +1,4 @@
-package com.soft1841;
+package com.soft1841.design1;
 
 public class SingletonTest {
     public static void main(String[] args) {

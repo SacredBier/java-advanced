@@ -1,4 +1,4 @@
-package com.soft1841;
+package com.soft1841.design2;
 
 public class FactoryTast {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package com.soft1841;
+package com.soft1841.design3;
 
-public abstract class Student implements Study,Sport{
+public abstract class Student implements Study, Sport {
     @Override
     public void playBasketball() {
 
